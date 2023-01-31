@@ -5,13 +5,11 @@
 
 body {
   background: #f3f4fb;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-.header,
-.temperature-details,
-.sunset-sunrise {
+.header, .temperature-details, .sunset-sunrise {
   max-width: 600px;
   margin: 0 auto;
 }
@@ -51,8 +49,9 @@ body {
   align-items: center;
   justify-content: center;
   transition: 0.2s;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: 
+  rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
 }
 
 .header__button:hover {
@@ -76,7 +75,7 @@ body {
   margin-top: 6px;
 }
 
-/* Current temperature*/
+/* Current temperature */
 
 .current-temperature {
   display: flex;
@@ -88,6 +87,11 @@ body {
 .current-temperature__weather-icon {
   width: 125px;
   margin-top: 15px;
+}
+
+
+.current-temperature__description:first-letter {
+  text-transform: uppercase;
 }
 
 .current-temperature__description {
@@ -108,16 +112,16 @@ body {
   margin-top: 10px;
 }
 
-/* Botton container */
+/* Bottom container */
 
-.botton-container {
+.bottom-container {
   background: #fff;
   position: absolute;
   bottom: 0;
   width: 100%;
   border-radius: 25px 25px 0 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .temperature-details {
